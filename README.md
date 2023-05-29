@@ -1,7 +1,7 @@
 # LOCAL SETUP
 
-install dependendency--> yarn
-run -> yarn start
+- install dependendency--> yarn
+- run the application -> yarn start
 
 
 
