@@ -1,6 +1,6 @@
 import React from 'react';
-import DateRangePicker from 'rsuite/DateRangePicker';
-import "rsuite/dist/rsuite.min.css";
+// import DateRangePicker from 'rsuite/DateRangePicker';
+// import "rsuite/dist/rsuite.min.css";
 import Datepicker from "react-tailwindcss-datepicker"; 
 import { useState } from 'react';
 
