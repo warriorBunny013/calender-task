@@ -49,7 +49,7 @@ const Modal = ({setOpen}) => {
         <label className='mb-3 font-bold text-sm'>Repeat on days</label>
         
         <div className='flex mt-2 mb-5  text-xs gap-2'>
-                <p className='flex justify-center w-8 h-8 mt-2 items-center bg-slate-200 rounded-full'>S</p>
+                <p className='flex justify-center w-8 h-8 items-center bg-slate-200 rounded-full'>S</p>
                 <p className='flex justify-center w-8 h-8 items-center bg-slate-200 rounded-full'>M</p>
                 <p className='flex justify-center w-8 h-8 items-center text-white bg-blue-500 rounded-full'>T</p>
                 <p className='flex justify-center w-8 h-8 items-center bg-slate-200 rounded-full'>W</p>
@@ -80,7 +80,7 @@ const Modal = ({setOpen}) => {
         </div>
         <div className='flex justify-between'>
         <div className='flex gap-2 justify-between'>
-                <p className='flex justify-center w-8 h-8 mt-2 items-center bg-red-200 rounded-full'></p>
+                <p className='flex justify-center w-8 h-8 items-center bg-red-200 rounded-full'></p>
                 <p className='flex justify-center w-8 h-8 items-center bg-purple-200 rounded-full'></p>
                 <p className='flex justify-center w-8 h-8 items-center bg-yellow-200 rounded-full'></p>
                 <p className='flex justify-center w-8 h-8 items-center bg-green-200 rounded-full'></p>
