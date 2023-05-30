@@ -49,7 +49,7 @@ const Modal = ({setOpen}) => {
           ]);
         // const [value, onChange] = useState(new Date());
     return (<div className='flex flex-col'><div className='flex flex-col relative' style={{ backgroundColor: "rgba(0,0,0,0.5)", position: "fixed",height: "100%", width: "100%", top: 0,left: 0, display: "flex" ,alignItems: "center",justifyContent: "center",overflow: "auto",zIndex: 99999}}>
-    <div className="w-sm bg-white rounded-2xl" >
+    <div className="xl:w-sm bg-white rounded-2xl" >
      
     <div className='p-5 px-8'>
         <div className='flex mb-8 justify-between'>
@@ -61,7 +61,7 @@ const Modal = ({setOpen}) => {
             <label className='mb-3 font-bold text-sm'>Period Name</label>
             <input  type="text" className='p-2 px-5 rounded-md border-black border' placeholder='Enter Period Name'/>
         </div>
-        <div className='flex mb-5 gap-5'>
+        <div className='flex flex-wrap mb-5 gap-5'>
         <div className='flex flex-col'>
         <label className='mb-3 font-bold text-sm'>Start Time</label>
         <div className='relative flex justify-end'>
