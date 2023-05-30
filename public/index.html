@@ -18,7 +18,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- <link href="/dist/output.css" rel="stylesheet"> -->
     <!-- <script src="../path/to/flowbite/dist/datepicker.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/datepicker.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/datepicker.min.js"></script> -->
     <!-- <script
   type="text/javascript"
   src="../node_modules/react-tailwindcss-datepicker/dist/index.esm.js"></script> -->
@@ -33,6 +33,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script>
+      tailwind.config={
+        theme:{
+          extend:{},
+        },
+        darkMode: false,
+        variants:{},
+        plugins:[
+          require('@tailwindcss/forms')
+        ]
+      }
+    </script>
     <title>React App</title>
    
   </head>

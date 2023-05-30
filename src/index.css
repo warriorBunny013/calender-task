@@ -15,3 +15,7 @@
     .rs-picker-daterange-menu {
       z-index: 10000000000; /* added a large random number, you can choose it more carefully based on your use-case.*/
     }
+    .dark {
+      background-color: "red";
+      color: "pink";
+    }
