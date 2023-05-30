@@ -1,9 +1,7 @@
 # LOCAL SETUP
-
 - install dependendency--> yarn
 - run the application -> yarn start
-
-
+- live link--> https://uditi-das-calender.netlify.app
 
 
 # Getting Started with Create React App
